@@ -8,9 +8,12 @@ This is our Fourth Week Assignment
 
 
 ## |-- experiments/ 
- `bubbles_sort.go`,
+ `bubbles_sort.go`
+ 
  `BFS(Kelanas).go`
+ 
  `BFS-Experiment.go(Values Modified)(Kelanas).go`
+ 
  `Bubble-sort-test(Kelanas).go`
 
 ## |-- screenshots/ 
