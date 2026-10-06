@@ -1,27 +1,63 @@
 package main
 
-import "fmt"
+import (
+	"reflect"
+	"testing"
+)
 
-// countMoves returns how many moves the recursive Tower of Hanoi solution
-// needs for n disks. It counts moves without printing every disk movement.
-func countMoves(n int) int {
-	if n <= 0 {
-		return 0
+func TestBFSVisitsValuesInBreadthFirstOrder(t *testing.T) {
+	graph := map[int][]int{
+		1: {2, 3},
+		2: {1, 4, 5},
+		3: {1, 5},
+		4: {2},
+		5: {2, 3},
 	}
-	return 2*countMoves(n-1) + 1
+
+	want := []int{1, 2, 3, 4, 5}
+
+	if got := bfs(graph, 1); !reflect.DeepEqual(got, want) {
+		t.Fatalf("bfs(graph, 1) = %v; want %v", got, want)
+	}
 }
 
-func main() {
-	fmt.Println("Tower of Hanoi Experiment")
-	fmt.Println("Comparing the recursive move count for different numbers of disks:")
-	fmt.Printf("%-8s %-14s %-14s\n", "Disks", "Moves counted", "Expected moves")
-
-	for disks := 1; disks <= 6; disks++ {
-		actual := countMoves(disks)
-		expected := (1 << disks) - 1
-		fmt.Printf("%-8d %-14d %-14d\n", disks, actual, expected)
+func TestBFSHandlesCyclesAndUnreachableValues(t *testing.T) {
+	graph := map[int][]int{
+		1: {2, 3},
+		2: {1, 3},
+		3: {1, 2},
+		4: {4},
 	}
 
-	fmt.Println("\nObservation: each additional disk doubles the previous move count and adds one.")
-	fmt.Println("The total number of moves follows the formula 2^n - 1, where n is the number of disks.")
+	want := []int{1, 2, 3}
+
+	if got := bfs(graph, 1); !reflect.DeepEqual(got, want) {
+		t.Fatalf("bfs(graph, 1) = %v; want %v", got, want)
+	}
+}
+
+func TestBFSIncludesStartWhenItIsNotInGraph(t *testing.T) {
+	graph := map[int][]int{}
+
+	want := []int{10}
+
+	if got := bfs(graph, 10); !reflect.DeepEqual(got, want) {
+		t.Fatalf("bfs(empty graph, 10) = %v; want %v", got, want)
+	}
+}
+
+func TestBFSAnotherGraph(t *testing.T) {
+	graph := map[int][]int{
+		10: {20, 30},
+		20: {10, 40},
+		30: {10, 50},
+		40: {20},
+		50: {30},
+	}
+
+	want := []int{10, 20, 30, 40, 50}
+
+	if got := bfs(graph, 10); !reflect.DeepEqual(got, want) {
+		t.Fatalf("bfs(graph, 10) = %v; want %v", got, want)
+	}
 }
