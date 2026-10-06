@@ -1,2 +1,10 @@
 # algorithm-mini-lab-team-a
-Fourth Week Assignment 
+This is our Fourth Week Assignment 
+
+## Activities
+algorithm-mini-lab-team-a/ 
+|-- README.md 
+|-- experiments/ 
+|-- screenshots/ 
+|-- AI-NOTES.md 
+`-- REFLECTION.md
