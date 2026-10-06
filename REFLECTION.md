@@ -42,7 +42,7 @@ Pull Request / Commit I contributed: not yet
 
 Name: Mahendra Dilyana Putra
 
-My main contribution: Wrote the bubble sort code, Change value data, fix http error.
+My main contribution: work on and solve problems in completing the tower of Hanoi
 
 The algorithm I understand best: Tower of Hanoi
 
