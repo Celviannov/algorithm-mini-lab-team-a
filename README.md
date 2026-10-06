@@ -1,10 +1,19 @@
 # algorithm-mini-lab-team-a
 This is our Fourth Week Assignment 
 
-## Activities
-algorithm-mini-lab-team-a/ 
-|-- README.md 
-|-- experiments/ 
-|-- screenshots/ 
-|-- AI-NOTES.md 
-`-- REFLECTION.md
+# algorithm-mini-lab-team-a/ 
+
+## |-- README.md
+`README.md`
+
+## |-- experiments/ 
+ `bubbles_sort.go`
+
+## |-- screenshots/ 
+
+ `Bubble Sort Screenshot.png`
+ `Bubble_sort_AI.png`
+ 
+## |-- AI-NOTES.md 
+
+## |--2 REFLECTION.md
