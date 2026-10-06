@@ -16,6 +16,8 @@ This is our Fourth Week Assignment
  
  `Bubble-sort-test(Kelanas).go`
 
+ `Tower-of-Hanoi.go`
+
 ## |-- screenshots/ 
 
  `Bubble Sort Screenshot.png`
@@ -27,6 +29,10 @@ This is our Fourth Week Assignment
  `BFS-Result.go(AI)(Kelanas).png`
  
  `Bubble-Sort-Test-Result(Kelanas).png`
+
+ `Tower_of_Hanoi.go_screenshot.PNG`
+
+ `TowerofHanoi_Ai.go`
  
  
 ## |-- AI-NOTES.md 
