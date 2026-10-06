@@ -16,10 +16,15 @@ This is our Fourth Week Assignment
 ## |-- screenshots/ 
 
  `Bubble Sort Screenshot.png`
+ 
  `Bubble_sort_AI.png`
+ 
  `BFS-Experiment-Result(Values Modified)(Kelanas).png`
+ 
  `BFS-Result.go(AI)(Kelanas).png`
+ 
  `Bubble-Sort-Test-Result(Kelanas).png`
+ 
  
 ## |-- AI-NOTES.md 
  `AI-Notes.md`
