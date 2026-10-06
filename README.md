@@ -15,5 +15,7 @@ This is our Fourth Week Assignment
  `Bubble_sort_AI.png`
  
 ## |-- AI-NOTES.md 
+ `AI-Notes.md`
 
-## |--2 REFLECTION.md
+## |-- REFLECTION.md
+ `REFLECTION.md`
