@@ -1,4 +1,7 @@
-# Bubble-Sort and Tower Hanoi Review
+# Bubble-Sort, BFS (Bredth-Fisrt-Search), and Tower Hanoi Review
+# Alghoritms MiniLab Team A
+
+# Bubble Sort & Tower of Hanoi Review
 
 Kelana: I tested Kevin's Bubble-Sort code, and reviewed Mahendra's Tower of Hanoi.
 
@@ -34,6 +37,10 @@ Mahendra: I Tested Celvian's Bubble sort, And Reviewed Kelana's BFS code
 
 ## Bubble Sort
 
+All the tests passed successfully. The numbers were sorted correctly from [5, 2, 8, 1, 4] into ascending order. The interesting part was the swapped variable, which allows the program to stop early when no swaps are needed. This makes the sorting process more efficient.
+
 ## BSF (Bredth-First-Search)
+
+All the tests passed successfully. BFS correctly visited the connected nodes and ignored the unreachable node. The test with cycles also worked correctly because BFS avoids visiting the same node twice.
 
 
