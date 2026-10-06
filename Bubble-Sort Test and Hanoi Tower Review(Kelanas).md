@@ -26,4 +26,4 @@ I tried disks = -1 just for fun, and the program crashed. I asked Kelana and fig
 
  ## BFS Bredth-First-Search
 
-all the tests passed. The most interesting one was the disconnected graph — a graph that's split into two separate pieces. BFS starting from A only found the nodes in A's piece. The nodes in the other piece never got a distance. At first I thought this was a bug, but actually it's correct — BFS can't jump to a part of the graph that isn't connected.
+all the tests passed. The most interesting one was the disconnected graph, a graph that's split into two separate pieces. BFS starting from A only found the nodes in A's piece. The nodes in the other piece never got a distance. At first I thought this was a bug, but actually it's correct, BFS can't jump to a part of the graph that isn't connected.
