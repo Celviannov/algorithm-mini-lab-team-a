@@ -33,11 +33,11 @@ all the tests passed. The most interesting one was the disconnected graph, a gra
 
 # Bubble Sort & BFS Review
 
-Mahendra: I Tested Celvian's Bubble sort, And Reviewed Kelana's BFS code
+Mahendra: I Tested Kelana's BFS , And Reviewed Celvian's Bubble sort code
 
 ## Bubble Sort
 
-All the tests passed successfully. The numbers were sorted correctly from [5, 2, 8, 1, 4] into ascending order. The interesting part was the swapped variable, which allows the program to stop early when no swaps are needed. This makes the sorting process more efficient.
+All the review passed successfully. The numbers were sorted correctly from [5, 2, 8, 1, 4] into ascending order. The interesting part was the swapped variable, which allows the program to stop early when no swaps are needed. This makes the sorting process more efficient.
 
 ## BSF (Bredth-First-Search)
 
